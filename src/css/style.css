@@ -45,6 +45,15 @@ li a {
     color: #212121;
 }
 
+.btn-back {
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #212121;
+}
+
 /* Gallery */
 
 .gallery {
