@@ -75,3 +75,63 @@ li a {
 .gallery-image:hover {
     transform: scale(1.05);
 }
+
+/* From */
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+label input {
+    width: 360px;
+    padding: 8px 0;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+label textarea {
+    resize: none;
+    width: 360px;
+    height: 80px;
+    overflow: auto;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.feedback-form button {
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4E75FF;
+    width: 95px;
+    padding: 8px 0;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+    transition: background-color 250ms linear;
+}
+
+.feedback-form button:hover {
+    background-color: #6C8CFF;
+}
